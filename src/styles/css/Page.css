@@ -1,0 +1,28 @@
+.Page .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 300px;
+  gap: 5px;
+  padding: 5px;
+  padding-top: 7px;
+}
+
+.Page .container > * {
+  border-radius: 12px;
+}
+
+.item1 {
+  background-color: pink;
+}
+
+.item2 {
+  background-color: blue;
+}
+
+.item3 {
+  background-color: red;
+}
+
+.item4 {
+  background-color: green;
+}

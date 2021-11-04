@@ -1,0 +1,21 @@
+.NavSearch {
+  margin: auto 10px auto 0;
+}
+
+.search {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
+  padding: 4px;
+  color: var(--clr-grey);
+}
+
+.search.desktop {
+  width: 350px;
+}
+
+.search .icon {
+  font-size: 1.5rem;
+}
