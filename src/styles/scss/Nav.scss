@@ -1,11 +1,17 @@
 .Nav {
+  height: 60px;
+}
+
+.nav {
   // border-bottom: 1px solid black;
   display: flex;
-
+  background-color: white;
+  position: fixed;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   height: 60px;
   width: 100%;
   padding: 10px;
+  z-index: 999;
 }
 
 .menuToggle {
