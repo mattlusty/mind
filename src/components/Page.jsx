@@ -11,16 +11,16 @@ class Page extends Component {
       <div className="Page">
         <div className="container">
           <div className="item item1">
-            <img src={brave} />
+            <img src={brave} alt="thing" />
           </div>
           <div className="item item2">
-            <img src={zebramix} />
+            <img src={zebramix} alt="thing" />
           </div>
           <div className="item item3">
-            <img src={brave} />
+            <img src={brave} alt="thing" />
           </div>
           <div className="item item4">
-            <img src={zebramix} />
+            <img src={zebramix} alt="thing" />
           </div>
         </div>
       </div>
