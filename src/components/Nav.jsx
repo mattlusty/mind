@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "../styles/css/Nav.css";
 
 //
-import brain from "../images/brain.png";
+// import brain from "../images/brain.png";
 // components
 import NavSearch from "./NavSearch";
 import NavProfile from "./NavProfile";

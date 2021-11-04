@@ -2,11 +2,7 @@ import React, { Component } from "react";
 // style
 import "../styles/css/Page.css";
 
-//
-import brain from "../images/brave.png";
-// components
-import NavSearch from "./NavSearch";
-import NavProfile from "./NavProfile";
+// import brain from "../images/brave.png";
 
 class Page extends Component {
   render() {
