@@ -8,7 +8,8 @@ VP   V8P  `Y88P'  88   YD YP  YP  YP YP   YP Y88888P Y888888P `8888Y' Y8888*/
   box-sizing: border-box;
 }
 
-body {
+body,
+p {
   margin: 0;
   padding: 0;
 }
@@ -30,6 +31,10 @@ th {
 h1 {
   margin-block-start: 0px;
   margin-block-end: 0px;
+}
+
+img {
+  display: block;
 }
 
 button {
@@ -61,6 +66,7 @@ body,
 input {
   font-family: "proxima";
   font-size: 1.2rem;
+  color: #0d0c22;
 }
 
 /*    db d888888b d888888b db      d888888b d888888b db    db 

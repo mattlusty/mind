@@ -3,7 +3,7 @@
 }
 
 .search {
-  border: 1px solid black;
+  // border: 1px solid black;
 
   height: 30px;
   width: 30px;
@@ -11,7 +11,10 @@
   border-radius: 20px; // ensures fully rounded corners
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   padding: 4px;
-  color: var(--clr-grey);
+
+  // background-color: rgb(243, 243, 243);
+  color: grey;
+
   // box-sizing: content-box; // seems to cause too many layout issue (pixel alignment)
 }
 

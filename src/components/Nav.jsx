@@ -13,21 +13,23 @@ class Nav extends Component {
     return (
       <div className="Nav">
         <div className="nav">
-          <div className="menuToggle icon">
+          <div className="menuToggle">
             <i className="mai-menu"></i>
           </div>
           {/* <img className="logo" src={brain} alt="brain" /> */}
           <div className="logoName">iMind</div>
-          <NavSearch />
-          <div className="navMenu">
-            <ul>
-              <li>About</li>
-              <li>Vote</li>
-              <li>Pitch</li>
-              <li>Invest</li>
-            </ul>
+          <div className="rightMenu">
+            <NavSearch />
+            <div className="navMenu">
+              <ul>
+                <li>About</li>
+                <li>Vote</li>
+                <li>Pitch</li>
+                <li>Invest</li>
+              </ul>
+            </div>
+            <NavProfile />
           </div>
-          <NavProfile />
         </div>
       </div>
     );

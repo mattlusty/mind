@@ -12,9 +12,27 @@ class Page extends Component {
         <div className="container">
           <div className="item item1">
             <img src={brave} alt="thing" />
+            <div className="content">
+              <h1>Brave New World</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae
+                et odio numquam alias tenetur.
+              </p>
+            </div>
           </div>
           <div className="item item2">
             <img src={zebramix} alt="thing" />
+            <div className="content">
+              <h1>Bring Back the Zelephants</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                alias tenetur.
+              </p>
+            </div>
           </div>
           <div className="item item3">
             <img src={brave} alt="thing" />

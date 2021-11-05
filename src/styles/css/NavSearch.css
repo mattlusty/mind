@@ -3,13 +3,12 @@
 }
 
 .search {
-  border: 1px solid black;
   height: 30px;
   width: 30px;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   padding: 4px;
-  color: var(--clr-grey);
+  color: grey;
 }
 
 .search.desktop {
