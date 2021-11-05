@@ -5,6 +5,7 @@
 .nav {
   display: grid;
   grid-template-columns: minmax(max-content, 1fr) auto minmax(max-content, 1fr);
+  grid-template-rows: 100%;
   position: fixed;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   height: 60px;
@@ -12,11 +13,6 @@
   background-color: white;
   padding: 10px;
   z-index: 999;
-}
-
-.rightMenu {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .menuToggle {
@@ -32,6 +28,19 @@
   height: unset;
   width: fit-content;
   aspect-ratio: unset;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: none;
+}
+
+.logo img {
+  height: 100%;
 }
 
 .logoName {
@@ -53,14 +62,15 @@
 
 .navMenu {
   display: none;
-  border: 1px solid red;
   margin: auto 0;
+  margin-right: 20px;
+  min-width: 400px;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
   font-size: 1.5rem;
   white-space: nowrap;
-}
-
-.navMenu.desktop {
-  display: block;
 }
 
 .navMenu li {
@@ -78,4 +88,34 @@
 
 .navMenu li:first-child {
   white-space: nowrap;
+}
+
+.rightMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (min-width: 700px) {
+  .Nav {
+    height: 80px;
+  }
+  .nav {
+    height: 80px;
+    grid-template-columns: auto auto;
+  }
+  .menuToggle {
+    display: none;
+  }
+  .logo {
+    height: 80%;
+    display: block;
+  }
+  .logoName {
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+  .navMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
 }

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import "../styles/css/Nav.css";
 
 //
-// import brain from "../images/brain.png";
+import tree from "../images/treelogo.png";
 // components
 import NavSearch from "./NavSearch";
 import NavProfile from "./NavProfile";
@@ -17,17 +17,20 @@ class Nav extends Component {
             <i className="mai-menu"></i>
           </div>
           {/* <img className="logo" src={brain} alt="brain" /> */}
-          <div className="logoName">iMind</div>
-          <div className="rightMenu">
-            <NavSearch />
-            <div className="navMenu">
-              <ul>
-                <li>About</li>
-                <li>Vote</li>
-                <li>Pitch</li>
-                <li>Invest</li>
-              </ul>
+          <div className="logo-wrapper">
+            <div className="logo">
+              <img src={tree} alt="tree" />
             </div>
+            <div className="logoName">iMind</div>
+          </div>
+          <div className="rightMenu">
+            <ul className="navMenu">
+              <li>About</li>
+              <li>Vote</li>
+              <li>Pitch</li>
+              <li>Invest</li>
+            </ul>
+            <NavSearch />
             <NavProfile />
           </div>
         </div>

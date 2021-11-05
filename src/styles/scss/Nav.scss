@@ -6,6 +6,7 @@
   // border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: minmax(max-content, 1fr) auto minmax(max-content, 1fr);
+  grid-template-rows: 100%;
   position: fixed;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   height: 60px;
@@ -13,11 +14,6 @@
   background-color: white;
   padding: 10px;
   z-index: 999;
-}
-
-.rightMenu {
-  display: flex;
-  justify-content: flex-end;
 }
 
 .menuToggle {
@@ -40,17 +36,19 @@
   aspect-ratio: unset;
 }
 
-// .logo {
-//   // border: 1px solid red;
-//   display: flex;
-//   justify-center
-//   // height: 40px;
-//   // width: 40px;
-//   margin: auto 10px auto 0px;
-//   color: #2c2c2c;
-//   // border-radius: 50%;
-//   // box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
-// }
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  // height: 100%;
+}
+
+.logo {
+  display: none;
+}
+
+.logo img {
+  height: 100%;
+}
 
 .logoName {
   display: flex;
@@ -67,30 +65,36 @@
   transform: translateY(2px) translateX(-2px);
 }
 
-// .logoName .text {
-//   width: 115px;
-//   padding: 10px;
-//   transform: translateY(2px) translateX(-2px);
-// }
-
 .space {
   flex-grow: 1;
 }
 
 .navMenu {
+  // border: 1px solid red;
+
   display: none;
-  border: 1px solid red;
   margin: auto 0;
+  margin-right: 20px;
+  min-width: 400px;
+  justify-content: space-around;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
+
   font-size: 1.5rem;
   white-space: nowrap;
   // min-width: fit-content;
 }
 
-.navMenu.desktop {
-  display: block;
+// .navMenu.desktop {
+//   display: block;
+// }
+
+.navMenu {
 }
 
 .navMenu li {
+  // border: 1px solid blue;
   display: inline-block;
   padding: 0 5px;
   margin: 0 20px;
@@ -107,4 +111,37 @@
   white-space: nowrap;
 }
 
-// Company Name
+.rightMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (min-width: 700px) {
+  .Nav {
+    height: 80px;
+  }
+
+  .nav {
+    height: 80px;
+    grid-template-columns: auto auto;
+  }
+
+  .menuToggle {
+    display: none;
+  }
+
+  .logo {
+    height: 80%;
+    display: block;
+  }
+
+  .logoName {
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+
+  .navMenu {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
