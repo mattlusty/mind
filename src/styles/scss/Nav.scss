@@ -36,7 +36,8 @@
   color: grey;
   font-size: 2rem;
   height: 100%;
-  aspect-ratio: 1;
+  width: auto;
+  aspect-ratio: 1; // does not work on iOS
 }
 
 .menuToggle:hover {
@@ -99,7 +100,7 @@ img.logo {
   //   display: none;
   // }
 
-  img.logo {
+  .Nav img.logo {
     height: 80%;
     width: auto;
     display: block;

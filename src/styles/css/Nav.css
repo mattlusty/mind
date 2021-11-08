@@ -30,6 +30,7 @@
   color: grey;
   font-size: 2rem;
   height: 100%;
+  width: auto;
   aspect-ratio: 1;
 }
 
@@ -83,7 +84,7 @@ img.logo {
   .Nav .leftMenu {
     display: none;
   }
-  img.logo {
+  .Nav img.logo {
     height: 80%;
     width: auto;
     display: block;
