@@ -80,6 +80,19 @@ input {
 88b  d88    88      .88.   88booo.   .88.      88       88    
 ~Y8888P'    YP    Y888888P Y88888P Y888888P    YP       */
 
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}
+
 // NEW MINDSET - Classes given to HTML elements should be semantical and styles handled for the classes semantic purpose
 // most the below are thus deprecated
 

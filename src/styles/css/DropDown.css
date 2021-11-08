@@ -1,5 +1,5 @@
 .DropDown {
-  border: 1px solid black;
+  border: 1px solid #f1f3f5;
   position: absolute;
   right: 0px;
   display: none;
@@ -11,7 +11,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
 }
 
-.profile-wrapper.open .DropDown {
+.Profile.open .DropDown {
   display: block;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .DropDown li.logout {
-  border-top: 1px solid grey;
+  border-top: 1px solid #e9e9e9;
 }
 
 .DropDown li.logout:hover {

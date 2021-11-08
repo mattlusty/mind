@@ -6,7 +6,6 @@
   width: 40px;
   margin: auto 0px auto 0px;
   cursor: pointer;
-  user-select: none;
   color: var(--clr-grey);
   border-radius: 50%;
 }

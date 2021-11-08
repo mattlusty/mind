@@ -75,6 +75,16 @@ input {
 88    88    88       88    88         88       88       88    
 88b  d88    88      .88.   88booo.   .88.      88       88    
 ~Y8888P'    YP    Y888888P Y88888P Y888888P    YP       */
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+.noSelect:focus {
+  outline: none !important;
+}
+
 .flex-center {
   display: flex;
   justify-content: center;

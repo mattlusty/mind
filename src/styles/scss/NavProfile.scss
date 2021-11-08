@@ -7,7 +7,7 @@
   // aspect-ratio: 1;
   margin: auto 0px auto 0px;
   cursor: pointer;
-  user-select: none;
+
   color: var(--clr-grey);
   border-radius: 50%;
 }
@@ -27,6 +27,7 @@
   // height: var(--height-primary);
   height: 100%;
   font-size: 3rem;
+
   // box-sizing: content-box; // seems to cause too many layout issue (pixel alignment)
   // border: 1px solid rgb(228, 228, 228);
 
