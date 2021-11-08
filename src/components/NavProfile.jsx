@@ -10,7 +10,7 @@ class NavProfile extends Component {
   };
 
   render() {
-    let classes = `profile-wrapper ${this.state.open ? "open" : ""}`;
+    let classes = `Profile ${this.state.open ? "open" : ""}`;
     return (
       <div
         className={classes}

@@ -2,7 +2,7 @@
   height: 30px;
   aspect-ratio: 1;
   // overflow: hidden;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   flex-shrink: 0;
   border-radius: 50%;
   cursor: pointer;
@@ -12,33 +12,33 @@
   align-items: center;
 }
 
-.buttonIcon {
-  @extend .icon;
-  // extend .flex-center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // @extend .no-shrink;
-  flex-shrink: 0;
-  // @extend .marg4;
-  margin: 0 4px 0 4px;
-}
+// .buttonIcon {
+//   @extend .icon;
+//   // extend .flex-center;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   // @extend .no-shrink;
+//   flex-shrink: 0;
+//   // @extend .marg4;
+//   margin: 0 4px 0 4px;
+// }
 
-.buttonIcon:hover {
-  // @extend .shad-hov;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.185);
-}
+// .buttonIcon:hover {
+//   // @extend .shad-hov;
+//   box-shadow: 0 0 5px rgba(0, 0, 0, 0.185);
+// }
 
-.expandIcon {
-  @extend .buttonIcon;
-  transition: transform 0.07s linear;
-}
+// .expandIcon {
+//   @extend .buttonIcon;
+//   transition: transform 0.07s linear;
+// }
 
-.open > * > .expandIcon {
-  transform: rotate(90deg);
-}
+// .open > * > .expandIcon {
+//   transform: rotate(90deg);
+// }
 
-// recenter to more intuitive center (always rotate parent container)
-.mai-chevron {
-  transform: translateX(15%);
-}
+// // recenter to more intuitive center (always rotate parent container)
+// .mai-chevron {
+//   transform: translateX(15%);
+// }

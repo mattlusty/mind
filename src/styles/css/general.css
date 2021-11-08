@@ -181,7 +181,7 @@ Y8    8P 88ooo88 88oobY'    88    88ooo88 88oooY' 88      88ooooo `8bo.
  `8bd8'  88   88 88 `88.   .88.   88   88 88   8D 88booo. 88.     db   8D 
    YP    YP   YP 88   YD Y888888P YP   YP Y8888P' Y88888P Y88888P `8888*/
 :root {
-  --clr-grey: grey;
+  --clr-grey: rgb(90, 90, 90);
   --color-bg-header: #e8f4f5;
 }
 

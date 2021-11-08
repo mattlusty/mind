@@ -1,25 +1,32 @@
-.profile-wrapper {
+.Profile {
   position: relative;
-  margin: 10px;
+  flex-shrink: 0;
   box-sizing: content-box;
+  height: 100%;
+  aspect-ratio: 1;
+  margin: auto 0px auto 0px;
   cursor: pointer;
   user-select: none;
-  height: 30px;
-  width: 30px;
-  margin: auto 0;
   color: var(--clr-grey);
+  border-radius: 50%;
+}
+
+.Profile:hover {
+  background-color: #f1f1f1;
 }
 
 .profile {
   position: relative;
-  border-radius: 20px;
-  background-color: var(--color-bg-test1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   margin-left: auto;
   margin-right: 0;
   height: 100%;
+  font-size: 3rem;
 }
 
-.profile .icon {
-  font-size: 1.5rem;
+@media only screen and (min-width: 700px) {
+  .Profile {
+    margin: auto 10px auto 0;
+    height: 45px;
+    width: 45px;
+  }
 }

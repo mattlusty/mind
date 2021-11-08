@@ -17,17 +17,19 @@
 
 .menuToggle {
   display: flex;
-  justify-content: flex-start;
-  align-items: middle;
+  justify-content: center;
+  align-items: center;
   margin: auto 0px auto 0px;
   padding: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   border-radius: 5px;
   color: grey;
   font-size: 2rem;
-  height: unset;
-  width: fit-content;
-  aspect-ratio: unset;
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.menuToggle:hover {
+  background-color: #f1f1f1;
 }
 
 .logo-wrapper {
@@ -35,12 +37,8 @@
   align-items: center;
 }
 
-.logo {
+img.logo {
   display: none;
-}
-
-.logo img {
-  height: 100%;
 }
 
 .logoName {
@@ -62,32 +60,6 @@
 
 .navMenu {
   display: none;
-  margin: auto 0;
-  margin-right: 20px;
-  min-width: 400px;
-  justify-content: space-around;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 500px;
-  font-size: 1.5rem;
-  white-space: nowrap;
-}
-
-.navMenu li {
-  display: inline-block;
-  padding: 0 5px;
-  margin: 0 20px;
-  padding: 10px;
-}
-
-.navMenu li:hover {
-  background-color: #f1f1f1;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.navMenu li:first-child {
-  white-space: nowrap;
 }
 
 .rightMenu {
@@ -101,21 +73,49 @@
   }
   .nav {
     height: 80px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
   }
   .menuToggle {
     display: none;
   }
-  .logo {
+  img.logo {
     height: 80%;
     display: block;
+    opacity: 0.65;
+    margin: auto 0 auto 10px;
   }
   .logoName {
     justify-content: flex-start;
     margin-left: 20px;
+    color: var(--clr-grey);
   }
   .navMenu {
     display: flex;
-    justify-content: flex-end;
+    margin: auto 0;
+    margin-right: 10px;
+    min-width: 400px;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 500px;
+    font-size: 1.5rem;
+    color: var(--clr-grey);
+    white-space: nowrap;
+  }
+  .navMenu li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 20px;
+    padding: 0 10px;
+  }
+  .navMenu li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .navMenu li:first-child {
+    white-space: nowrap;
   }
 }

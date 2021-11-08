@@ -1,14 +1,19 @@
 .NavSearch {
-  margin: auto 10px auto 0;
+  flex-shrink: 0;
+  margin: auto 5px auto 0px;
+  border-radius: 50%;
+  height: 100%;
+  aspect-ratio: 1;
 }
 
 .search {
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
-  padding: 4px;
+  font-size: 1.8rem;
+  height: 100%;
   color: grey;
+}
+
+.NavSearch:hover {
+  background-color: #f1f1f1;
 }
 
 .search.desktop {
@@ -17,4 +22,11 @@
 
 .search .icon {
   font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .NavSearch {
+    height: 45px;
+    width: 45px;
+  }
 }

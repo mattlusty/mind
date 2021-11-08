@@ -1,15 +1,19 @@
-.profile-wrapper {
+.Profile {
   position: relative;
-
-  margin: 10px;
+  flex-shrink: 0;
   box-sizing: content-box;
 
+  height: 100%;
+  aspect-ratio: 1;
+  margin: auto 0px auto 0px;
   cursor: pointer;
   user-select: none;
-  height: 30px;
-  width: 30px;
-  margin: auto 0;
   color: var(--clr-grey);
+  border-radius: 50%;
+}
+
+.Profile:hover {
+  background-color: rgb(241, 241, 241);
 }
 
 .profile {
@@ -17,20 +21,22 @@
 
   // padding: 0 10px;
   position: relative;
-  border-radius: 20px;
   // border-radius: 50%;
-  background-color: var(--color-bg-test1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
   margin-left: auto;
   margin-right: 0;
   // height: var(--height-primary);
   height: 100%;
+  font-size: 3rem;
   // box-sizing: content-box; // seems to cause too many layout issue (pixel alignment)
   // border: 1px solid rgb(228, 228, 228);
 
   // color: var(--color-bg-darker3);
 }
 
-.profile .icon {
-  font-size: 1.5rem;
+@media only screen and (min-width: 700px) {
+  .Profile {
+    margin: auto 10px auto 0;
+    height: 45px;
+    width: 45px;
+  }
 }

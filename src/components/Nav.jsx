@@ -18,9 +18,7 @@ class Nav extends Component {
           </div>
           {/* <img className="logo" src={brain} alt="brain" /> */}
           <div className="logo-wrapper">
-            <div className="logo">
-              <img src={tree} alt="tree" />
-            </div>
+            <img class="logo" src={tree} alt="tree" />
             <div className="logoName">iMind</div>
           </div>
           <div className="rightMenu">
