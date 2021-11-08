@@ -35,8 +35,10 @@
   // background-color: rgb(243, 243, 243);
   color: grey;
   font-size: 2rem;
-  height: 100%;
-  width: auto;
+  // height: 100%;
+  // width: auto;
+  height: 40px;
+  width: 40px;
   aspect-ratio: 1; // does not work on iOS
 }
 
