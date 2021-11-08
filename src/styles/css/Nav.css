@@ -80,7 +80,7 @@ img.logo {
     height: 80px;
     grid-template-columns: 1fr 1fr;
   }
-  .menuToggle {
+  .Nav .leftMenu {
     display: none;
   }
   img.logo {

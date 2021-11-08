@@ -91,9 +91,13 @@ img.logo {
     grid-template-columns: 1fr 1fr;
   }
 
-  .menuToggle {
+  .Nav .leftMenu {
     display: none;
   }
+
+  // .menuToggle {
+  //   display: none;
+  // }
 
   img.logo {
     height: 80%;
