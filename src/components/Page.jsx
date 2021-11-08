@@ -10,53 +10,173 @@ class Page extends Component {
     return (
       <div className="Page">
         <div className="container">
-          <div className="item item1">
+          <div className="item">
             <img src={brave} alt="thing" />
             <div className="content">
-              <h1>Brave New World</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
-                enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
-                alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
-                consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae
-                et odio numquam alias tenetur.
-              </p>
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="item item2">
+          <div className="item">
             <img src={zebramix} alt="thing" />
             <div className="content">
-              <h1>Bring Back the Zelephants</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
-                enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
-                alias tenetur.
-              </p>
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="item item3">
+          <div className="item">
             <img src={brave} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item4">
+          <div className="item">
             <img src={zebramix} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item1">
+          <div className="item">
             <img src={brave} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item2">
+          <div className="item">
             <img src={zebramix} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item3">
+          <div className="item">
             <img src={brave} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item4">
+          <div className="item">
             <img src={zebramix} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item3">
+          <div className="item">
             <img src={brave} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="item item4">
+          <div className="item">
             <img src={zebramix} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            <img src={brave} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Brave New World</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis
+                  consequatur commodi enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum
+                  recusandae et odio numquam alias tenetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="item">
+            <img src={zebramix} alt="thing" />
+            <div className="content">
+              <div className="inner">
+                <h1>Bring Back the Zelephants</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
+                  enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
+                  alias tenetur.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
