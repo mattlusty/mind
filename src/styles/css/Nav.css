@@ -15,6 +15,11 @@
   z-index: 999;
 }
 
+.Nav .leftMenu {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .menuToggle {
   display: flex;
   justify-content: center;

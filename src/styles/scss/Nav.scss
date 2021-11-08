@@ -16,6 +16,11 @@
   z-index: 999;
 }
 
+.Nav .leftMenu {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .menuToggle {
   // border: 1px solid red;
 

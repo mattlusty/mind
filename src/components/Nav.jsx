@@ -13,10 +13,11 @@ class Nav extends Component {
     return (
       <div className="Nav">
         <div className="nav">
-          <div className="menuToggle">
-            <i className="mai-menu"></i>
+          <div className="leftMenu">
+            <div className="menuToggle">
+              <i className="mai-menu"></i>
+            </div>
           </div>
-          {/* <img className="logo" src={brain} alt="brain" /> */}
           <div className="logo-wrapper">
             <img class="logo" src={tree} alt="tree" />
             <div className="logoName">iMind</div>
