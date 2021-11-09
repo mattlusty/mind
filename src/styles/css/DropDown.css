@@ -9,6 +9,7 @@
   width: 150px;
   margin-top: 6px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
+  font-size: 1.5rem;
 }
 
 .Profile.open .DropDown {
@@ -28,7 +29,7 @@
 }
 
 .DropDown li.logout:hover {
-  border-top: 1px solid grey;
+  border-top: 1px solid #e9e9e9;
 }
 
 .DropDown li.header {
