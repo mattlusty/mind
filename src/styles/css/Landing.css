@@ -1,0 +1,12 @@
+.Landing .one {
+  background-color: #eead4d;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.Landing p {
+  padding: 30px;
+  font-size: 3.8rem;
+  font-family: "sam";
+  color: #946b2d;
+}

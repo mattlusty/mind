@@ -13,12 +13,16 @@
   padding: 10px;
   padding-top: 13px;
   background-color: #f8f9fa;
+  background-color: #f3f3f3;
+
+  // background-color: rgb(248, 241, 230);
 }
 
 .Page .container > .item {
   border-radius: 12px;
   overflow: hidden;
-  // box-shadow: 0 0 8px rgba(0, 0, 0, 0.367);
+  // box-shadow: 0px 0px 2px #ffffff;
+  // outline: 1px solid white;
 }
 
 .Page .item > .inner {
@@ -38,7 +42,7 @@
 }
 
 .Page .item .content {
-  border: 2px solid #f1f3f5;
+  border: 2px solid #eeeeee;
   padding: 7px 10px 10px 10px;
   line-height: 2rem;
   border-radius: 0px 0px 12px 12px;
