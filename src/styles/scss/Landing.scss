@@ -3,13 +3,17 @@
   background-color: rgb(238, 173, 77);
   text-align: center;
   padding: 35px 0;
+  // border-bottom: 5px solid rgb(207, 152, 68);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.467);
+  margin-bottom: 20px;
 }
 
 .Landing p {
   padding: 30px;
   font-size: 3.8rem;
   font-family: "sam";
-  color: rgb(148, 107, 45);
+  color: rgb(128, 85, 21);
+  // color: white;
 }
 
 // .Landing .two {

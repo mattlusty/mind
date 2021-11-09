@@ -2,11 +2,13 @@
   background-color: #eead4d;
   text-align: center;
   padding: 35px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.467);
+  margin-bottom: 20px;
 }
 
 .Landing p {
   padding: 30px;
   font-size: 3.8rem;
   font-family: "sam";
-  color: #946b2d;
+  color: #805515;
 }
