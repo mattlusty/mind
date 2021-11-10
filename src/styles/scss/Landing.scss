@@ -1,11 +1,22 @@
 .Landing .one {
-  // height: 400px;
+  // height: 500px;
+  background-image: url(../../images/zebby.png);
+  background-image: url(../../images/treeTrunk_2400w.png);
+
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  // background-position-y: -200px;
   background-color: rgb(238, 173, 77);
+  background-color: rgb(116, 88, 48);
+  background-position: center;
   text-align: center;
-  padding: 35px 0;
+  padding: 30px 0;
   // border-bottom: 5px solid rgb(207, 152, 68);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.467);
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
+  position: relative;
+  z-index: 9;
 }
 
 .Landing p {
@@ -13,7 +24,7 @@
   font-size: 3.8rem;
   font-family: "sam";
   color: rgb(128, 85, 21);
-  // color: white;
+  color: white;
 }
 
 // .Landing .two {
