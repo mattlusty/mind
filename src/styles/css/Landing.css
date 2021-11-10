@@ -1,7 +1,6 @@
 .Landing .one {
-  background-image: url(../../images/zebby.png);
   background-image: url(../../images/treeTrunk_2400w.png);
-  background-size: cover;
+  background-size: contain;
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-color: #eead4d;
@@ -20,4 +19,11 @@
   font-family: "sam";
   color: #805515;
   color: white;
+}
+
+@media only screen and (min-width: 730px) {
+  .Landing .one {
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }

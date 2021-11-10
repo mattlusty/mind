@@ -1,6 +1,6 @@
 .NavSearch {
   flex-shrink: 0;
-  margin: auto 30px auto 0px;
+  margin: auto 5px auto 0px;
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -28,5 +28,6 @@
   .NavSearch {
     height: 45px;
     width: 45px;
+    margin: auto 30px auto 0px;
   }
 }
