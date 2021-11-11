@@ -2,6 +2,7 @@
   background-image: url(../../images/treeTrunk_640w.png);
   background-size: contain;
   background-blend-mode: multiply;
+  background-attachment: fixed;
   background-color: #eead4d;
   background-color: #745830;
   background-position: center;
