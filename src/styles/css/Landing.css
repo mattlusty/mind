@@ -1,6 +1,6 @@
 .Landing .one {
   background-image: url(../../images/treeTrunk_640w.png);
-  background-size: contain;
+  background-size: cover;
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-color: #eead4d;
