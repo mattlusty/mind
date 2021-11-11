@@ -2,10 +2,10 @@ import React, { Component } from "react";
 // style
 import "../styles/css/Page.css";
 
-import tree from "../images/treeTrunk.png";
 import treeTrunk_2400w from "../images/treeTrunk_2400w.png";
 import treeTrunk_1920w from "../images/treeTrunk_1920w.png";
 import treeTrunk_640w from "../images/treeTrunk_640w.png";
+import treesSnow_2400w from "../images/treesSnow_2400w.jpg";
 import treesSnow_1920w from "../images/treesSnow_1920w.png";
 import treesSnow_640w from "../images/treesSnow_640w.png";
 import treesTall_2400w from "../images/treesTall_2400w.png";
@@ -22,8 +22,9 @@ class Page extends Component {
         <div className="container">
           <div className="item">
             <img
-              src={tree}
+              src={treeTrunk_640w}
               srcSet={`${treeTrunk_2400w} 2400w, ${treeTrunk_1920w} 1920w, ${treeTrunk_640w} 640w`}
+              sizes="(max-width: 710px) 100vw, 50%"
               alt="thing"
             />
             <div className="content">
@@ -40,7 +41,12 @@ class Page extends Component {
             </div>
           </div>
           <div className="item">
-            <img src={treesSnow_640w} srcSet={`${treesSnow_1920w} 1920w, ${treesSnow_640w} 640w`} alt="thing" />
+            <img
+              src={treesSnow_640w}
+              srcSet={`${treesSnow_2400w} 2400w, ${treesSnow_1920w} 1920w, ${treesSnow_640w} 640w`}
+              sizes="(max-width: 710px) 100vw, 25vw"
+              alt="thing"
+            />
             <div className="content">
               <div className="inner">
                 <h1>Bring Back the Zelephants</h1>
@@ -56,6 +62,7 @@ class Page extends Component {
             <img
               src={treesTall_640w}
               srcSet={`${treesTall_2400w} 2400w, ${treesTall_1920w} 1920w, ${treesTall_640w} 640w`}
+              sizes="(max-width: 710px) 100vw, 25vw"
               alt="thing"
             />
             <div className="content">
