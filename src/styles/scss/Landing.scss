@@ -1,5 +1,5 @@
 .Landing .one {
-  background-image: url(../../images/treeTrunk_640w.png);
+  background-image: url(../../images/treeTrunk_500.jpg);
   background-size: contain;
   background-blend-mode: multiply;
   background-attachment: fixed;
@@ -26,13 +26,8 @@
 
 @media only screen and (min-width: 710px) {
   .Landing .one {
-    background-image: url(../../images/treeTrunk_2400w.png);
+    background-image: url(../../images/treeTrunk_1500.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
 }
-
-// .Landing .two {
-//   height: 50px;
-//   background-color: rgb(255, 247, 235);
-// }

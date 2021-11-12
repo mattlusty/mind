@@ -249,7 +249,12 @@ class Page extends Component {
             </div>
           </div>
           <div className="item">
-            <img src={zebramix} alt="thing" />
+            <img
+              src={zelephant}
+              srcSet={`${zelephant} 2500w, ${zelephant} 1500w, ${zelephant} 500w`}
+              sizes="(max-width: 710px) 100vw, 50%"
+              alt="thing"
+            />
             <div className="content">
               <div className="inner">
                 <h1>Bring Back the Zelephants</h1>
