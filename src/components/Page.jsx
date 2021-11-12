@@ -11,7 +11,6 @@ import treesSnow_500 from "../images/treesSnow_500.jpg";
 import treesTall_2500 from "../images/treesTall_2500.jpg";
 import treesTall_1500 from "../images/treesTall_1500.jpg";
 import treesTall_500 from "../images/treesTall_500.jpg";
-import zelephant from "../images/zelephant.jpeg";
 import spaceman_2500 from "../images/spaceman_2500.jpg";
 import spaceman_1500 from "../images/spaceman_1500.jpg";
 import spaceman_500 from "../images/spaceman_500.jpg";
@@ -24,9 +23,8 @@ import fox_500 from "../images/fox_500.jpg";
 import electricCars_2500 from "../images/electricCars_2500.jpg";
 import electricCars_1500 from "../images/electricCars_1500.jpg";
 import electricCars_500 from "../images/electricCars_500.jpg";
-
+import zelephant from "../images/zelephant.jpeg";
 import brave from "../images/bravey.png";
-import zebramix from "../images/zebby.png";
 
 class Page extends Component {
   render() {
@@ -222,7 +220,7 @@ class Page extends Component {
             />
             <div className="content">
               <div className="inner">
-                <h1>Bring Back the Zelephants</h1>
+                <h1>Snow Place Like Home</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error perspiciatis consequatur commodi
                   enim ipsam, sapiente neque laborum, ad repellat explicabo non officia eum recusandae et odio numquam
