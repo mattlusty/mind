@@ -7,9 +7,9 @@ class Landing extends Component {
     return (
       <div className="Landing">
         <div className="one">
-          <p>Every problem has it's solution</p>
-          <p>You draw the dots</p>
-          <p>iMind connects them</p>
+          <p>Every problem has solutions</p>
+          <p>You Draw the dots</p>
+          <p>iMind connects</p>
         </div>
         <div className="two"></div>
       </div>
